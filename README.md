@@ -13,6 +13,8 @@
 
 - `./generate-mapping --verbose  -u root  -o /mnt/dbname.ttl jdbc:mysql://172.17.0.1:3306/dbname`
 
+- TODO: there is a workaround for the error `Client does not support authentication protocol requested by server; consider upgrading MySQL client (E54)`
+
 - then edit /mnt/dbname.ttl and delete the table mapping you don't want
 
 - `./dump-rdf --verbose  -o /mnt/dump.nt /mnt/dbname.ttl` 
