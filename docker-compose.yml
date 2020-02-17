@@ -1,0 +1,10 @@
+version: "2.0"
+
+services:
+  d2rq:
+    command: "tail -f /dev/null"
+    image: justin2004/d2rq_box
+    build: .
+    volumes:
+      - "${PWD}:/mnt"
+
