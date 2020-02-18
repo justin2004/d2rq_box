@@ -1,0 +1,46 @@
+<file:///mnt/dump.nt#pets/1> <file:///mnt/vocab/pets_ownerid> <file:///mnt/dump.nt#people/3> .
+<file:///mnt/dump.nt#pets/1> <file:///mnt/vocab/pets_id> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///mnt/dump.nt#pets/1> <file:///mnt/vocab/pets_name> "wilbur" .
+<file:///mnt/dump.nt#pets/1> <http://www.w3.org/2000/01/rdf-schema#label> "pets #1" .
+<file:///mnt/dump.nt#pets/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///mnt/vocab/pets> .
+<file:///mnt/dump.nt#pets/2> <file:///mnt/vocab/pets_ownerid> <file:///mnt/dump.nt#people/3> .
+<file:///mnt/dump.nt#pets/2> <file:///mnt/vocab/pets_id> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///mnt/dump.nt#pets/2> <file:///mnt/vocab/pets_name> "max" .
+<file:///mnt/dump.nt#pets/2> <http://www.w3.org/2000/01/rdf-schema#label> "pets #2" .
+<file:///mnt/dump.nt#pets/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///mnt/vocab/pets> .
+<file:///mnt/dump.nt#pets/3> <file:///mnt/vocab/pets_ownerid> <file:///mnt/dump.nt#people/1> .
+<file:///mnt/dump.nt#pets/3> <file:///mnt/vocab/pets_id> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///mnt/dump.nt#pets/3> <file:///mnt/vocab/pets_name> "glia" .
+<file:///mnt/dump.nt#pets/3> <http://www.w3.org/2000/01/rdf-schema#label> "pets #3" .
+<file:///mnt/dump.nt#pets/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///mnt/vocab/pets> .
+<file:///mnt/dump.nt#people/1> <file:///mnt/vocab/people_height> "343"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///mnt/dump.nt#people/1> <file:///mnt/vocab/people_name> "bob" .
+<file:///mnt/dump.nt#people/1> <file:///mnt/vocab/people_id> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///mnt/dump.nt#people/1> <http://www.w3.org/2000/01/rdf-schema#label> "people #1" .
+<file:///mnt/dump.nt#people/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///mnt/vocab/people> .
+<file:///mnt/dump.nt#people/2> <file:///mnt/vocab/people_height> "56"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///mnt/dump.nt#people/2> <file:///mnt/vocab/people_name> "same" .
+<file:///mnt/dump.nt#people/2> <file:///mnt/vocab/people_id> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///mnt/dump.nt#people/2> <http://www.w3.org/2000/01/rdf-schema#label> "people #2" .
+<file:///mnt/dump.nt#people/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///mnt/vocab/people> .
+<file:///mnt/dump.nt#people/3> <file:///mnt/vocab/people_height> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///mnt/dump.nt#people/3> <file:///mnt/vocab/people_name> "jimbo" .
+<file:///mnt/dump.nt#people/3> <file:///mnt/vocab/people_id> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///mnt/dump.nt#people/3> <http://www.w3.org/2000/01/rdf-schema#label> "people #3" .
+<file:///mnt/dump.nt#people/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///mnt/vocab/people> .
+<file:///mnt/vocab/people_id> <http://www.w3.org/2000/01/rdf-schema#label> "people id" .
+<file:///mnt/vocab/people_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///mnt/vocab/pets_id> <http://www.w3.org/2000/01/rdf-schema#label> "pets id" .
+<file:///mnt/vocab/pets_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///mnt/vocab/people> <http://www.w3.org/2000/01/rdf-schema#label> "people" .
+<file:///mnt/vocab/people> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<file:///mnt/vocab/pets_name> <http://www.w3.org/2000/01/rdf-schema#label> "pets name" .
+<file:///mnt/vocab/pets_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///mnt/vocab/pets> <http://www.w3.org/2000/01/rdf-schema#label> "pets" .
+<file:///mnt/vocab/pets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<file:///mnt/vocab/people_name> <http://www.w3.org/2000/01/rdf-schema#label> "people name" .
+<file:///mnt/vocab/people_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///mnt/vocab/people_height> <http://www.w3.org/2000/01/rdf-schema#label> "people height" .
+<file:///mnt/vocab/people_height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///mnt/vocab/pets_ownerid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
